@@ -168,6 +168,13 @@ function calc(op) {
     background-repeat: no-repeat;
 }
 
+/* Ajuste responsividade do input no mobile */
+@media (max-width: 599px) {
+    .input {
+        width: 95%;
+    }
+}
+
 .input:focus {
     /* Uso do focus para criar uma caixa ao clicar no input */
     background-size: 100% 100%;
