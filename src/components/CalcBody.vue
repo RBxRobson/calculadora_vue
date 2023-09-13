@@ -48,8 +48,8 @@ function calc(op) {
         // Multiplicação
         return parseInt(VariablePrimary) * parseInt(VariableSecondary);
     } else if (op === 'divisao') {
-        // Divisão com método toFixed para não gerar numero muito grande
-        return (parseInt(VariablePrimary) / parseInt(VariableSecondary)).toFixed(4);
+        // Divisão 
+        return (parseInt(VariablePrimary) / parseInt(VariableSecondary));
     } else if (op === 'porcentagem') {
         // Porcentagem
         return parseInt(VariablePrimary) * parseInt(VariableSecondary) / 100;
